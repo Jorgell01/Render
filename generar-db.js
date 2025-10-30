@@ -608,7 +608,7 @@ console.log(`✅ Generados ${NUM_PRODUCTOS.toLocaleString()} productos`);
  * const db = {
  *   proveedores: [100 proveedores],
  *   categorias: [50 categorías],
- *   productos: [200,000 productos]
+ *   productos: [200 productos]
  * }
  * 
  * Este formato es el que necesita json-server para funcionar.
@@ -616,7 +616,7 @@ console.log(`✅ Generados ${NUM_PRODUCTOS.toLocaleString()} productos`);
 const db = { 
   proveedores,   // Array con 100 proveedores
   categorias,    // Array con 50 categorías
-  productos      // Array con 200,000 productos (o los que hayas configurado)
+  productos      // Array con 200 productos (o los que hayas configurado)
 };
 
 console.log("\n💾 Guardando archivo db-grande.json...");
@@ -697,72 +697,3 @@ console.log(`   📦 Productos: ${NUM_PRODUCTOS.toLocaleString()}`);
 console.log(`\n💡 TIP: Puedes ajustar NUM_PRODUCTOS en el script para cambiar el tamaño`);
 console.log(`\n🚀 Ejecuta "npm start" para iniciar el servidor con estos datos\n`);
 
-/**
- * ═══════════════════════════════════════════════════════════════════════════
- * 🎓 RESUMEN PARA ALUMNOS
- * ═══════════════════════════════════════════════════════════════════════════
- * 
- * ¿QUÉ HEMOS APRENDIDO?
- * 
- * 1. 🔁 BUCLES FOR
- *    - Se usan para repetir código muchas veces
- *    - Sintaxis: for (inicio; condición; incremento) { código }
- * 
- * 2. 📦 ARRAYS (Listas)
- *    - Se crean con []
- *    - .push() añade elementos al final
- *    - Se accede con [índice] (empieza en 0)
- * 
- * 3. 📝 OBJETOS
- *    - Se crean con {}
- *    - Tienen propiedades (clave: valor)
- *    - Ejemplo: { id: 1, nombre: "Juan" }
- * 
- * 4. 🔢 OPERADORES
- *    - % (módulo) → Resto de una división
- *    - ++ → Sumar 1
- *    - * → Multiplicar
- *    - > → Mayor que
- * 
- * 5. 🎲 NÚMEROS ALEATORIOS
- *    - Math.random() → Número entre 0 y 1
- *    - Math.floor() → Redondear hacia abajo
- * 
- * 6. 📝 TEXTO (Strings)
- *    - `` → Comillas que permiten ${variables}
- *    - .padStart() → Rellenar con caracteres
- *    - .toFixed() → Limitar decimales
- * 
- * 7. 💾 ARCHIVOS
- *    - fs.writeFileSync() → Guardar archivo
- *    - fs.statSync() → Info del archivo
- *    - JSON.stringify() → Objeto → Texto JSON
- * 
- * 8. 🖥️ CONSOLA
- *    - console.log() → Mostrar texto en pantalla
- * 
- * ═══════════════════════════════════════════════════════════════════════════
- * 
- * ❓ PREGUNTAS FRECUENTES
- * 
- * P: ¿Por qué usamos % (módulo)?
- * R: Para "dar la vuelta" cuando llegamos al final de un array.
- *    Ejemplo: Si hay 8 países, el producto 9 vuelve al país 1.
- * 
- * P: ¿Qué diferencia hay entre let y const?
- * R: - const → No puede cambiar (constante)
- *    - let → Puede cambiar (variable)
- * 
- * P: ¿Por qué algunos números tienen + delante?
- * R: Para convertir texto a número.
- *    Ejemplo: +"23.45" → 23.45 (número)
- * 
- * P: ¿Qué significa i++?
- * R: Es lo mismo que i = i + 1 (sumar 1 a i)
- * 
- * P: ¿Por qué array.push() y no array[100]?
- * R: .push() añade al final, sin importar la posición.
- *    Es más seguro y no sobreescribe datos.
- * 
- * ═══════════════════════════════════════════════════════════════════════════
- */

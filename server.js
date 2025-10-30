@@ -42,27 +42,6 @@
  * - Variables de entorno (process.env)
  */
 
-// ═══════════════════════════════════════════════════════════════════════════
-// 📦 IMPORTAR HERRAMIENTAS (LIBRERÍAS) QUE NECESITAMOS
-// ═══════════════════════════════════════════════════════════════════════════
-
-/**
- * 🔧 ¿QUÉ ES UN "IMPORT"?
- * 
- * "import" es como ir a una tienda de herramientas y comprar lo que necesitas.
- * 
- * Ejemplo del mundo real:
- * - Si quieres hacer un mueble, necesitas: martillo, clavos, sierra
- * - En programación, si quieres hacer un servidor, necesitas: json-server, axios, fs
- * 
- * Sintaxis:
- *   import nombreHerramienta from "nombre-paquete";
- * 
- * ¿De dónde vienen estas herramientas?
- * - Del archivo package.json (sección "dependencies")
- * - Se descargan con "npm install"
- */
-
 /**
  * 📚 JSON-SERVER
  * 
